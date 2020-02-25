@@ -3,8 +3,8 @@
 
 // Branding colors
 
-$color-brand: #838aee;
-$color-secondary: rgb(219, 216, 121);
+$color-brand: #623188;
+$color-secondary: rgb(0, 140, 79);
 
 $color-black: rgb(0,0,0);
 $color-darkblack: #4d4d4d;
@@ -24,3 +24,13 @@ $basefontsize: 16px;
 
 $buttoncolor: $color-white;
 $buttonbackgroundcolor: $color-brand;
+
+:root {
+    --color-brand: #623188;
+    --color-secondary: rgb(0, 140, 79);
+    --fontColor: var(--color-brand);
+    --titleColor: #fff;
+    --color-error: rgb(218,79,73);
+    --color-info: rgb(66,104,221);
+    --color-success: rgb(91,183,91);
+}
